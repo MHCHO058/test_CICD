@@ -20,5 +20,9 @@ namespace UnitTest2
 		TEST_METHOD(TestMethod2) {
 			Assert::AreEqual(0, solution(1, 4));
 		}
+
+		TEST_METHOD(TestMethod3) {
+			Assert::AreEqual(1, solution(1, 4));
+		}
 	};
 }
